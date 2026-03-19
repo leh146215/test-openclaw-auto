@@ -1,0 +1,15 @@
+# Fixed GitHub CI workflow
+name: CI
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Install dependencies
+        run: |
+          # Install dependencies here
+      - name: Run tests
+        run: |
+          # Run tests here
