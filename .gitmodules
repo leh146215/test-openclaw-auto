@@ -1,0 +1,4 @@
+# Fixed git submodules configuration
+[submodule "submodule"]
+path = submodule
+url = https://github.com/username/submodule.git
